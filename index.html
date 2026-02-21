@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="src/css/style.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <a href="" class="nav-brand">App</a>
+      <ul>
+        <li class="nav-item"><a href="about.html">About us</a></li>
+        <li><a href="" class="nav-item btn btn-default">Register</a></li>
+      </ul>
+    </nav>
+
+    <div class="container" id="main">
+      <h1>Welcome to our app</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus,
+        voluptatem.
+      </p>
+
+      <button class="btn btn-default" id="my-button">
+        <span id="button-text">Get weather</span>
+        <div id="loader" class="hidden"></div>
+      </button>
+    </div>
+
+    <footer id="footer-wrapper">
+      <a href="about.html" target="_blank">About us</a>
+      <a href="contact.html" target="_blank">Contact us</a>
+    </footer>
+    <script type="module" src="src/js/index.js"></script>
+  </body>
+</html>
